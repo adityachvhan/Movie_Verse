@@ -1,0 +1,21 @@
+/* Dropdown hover effect */
+.navbar-nav .nav-item .dropdown-menu {
+    display: none;
+}
+
+.navbar-nav .nav-item:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: #b90e0a;
+    border: none;
+    margin-top: 0.5rem;
+}
+
+.dropdown-item {
+    color: white !important;
+}
+
+.dropdown-item:hover {
+    background-color: #a50b08;
+    color: white !important;
+}
